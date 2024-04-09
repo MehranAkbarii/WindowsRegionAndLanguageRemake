@@ -1,0 +1,29 @@
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\bin\Debug\RegionAndLanguage.exe.config
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\bin\Debug\RegionAndLanguage.exe
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\bin\Debug\RegionAndLanguage.pdb
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.Form1.resources
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.Properties.Resources.resources
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.exe
+C:\Users\Home\Desktop\project\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.pdb
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\RegionAndLanguage.exe.config
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\RegionAndLanguage.exe
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\RegionAndLanguage.pdb
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.csproj.AssemblyReference.cache
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.Form1.resources
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.Properties.Resources.resources
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.csproj.GenerateResource.cache
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.exe
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.pdb
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\System.Management.Automation.dll
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\System.Management.Automation.xml
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAn.B38BB6A4.Up2Date
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debug\aa-DJ\RegionAndLanguage.resources.dll
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.FormLogOff.resources
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.FormLogOff.aa-DJ.resources
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\aa-DJ\RegionAndLanguage.resources.dll
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.Form3.resources
