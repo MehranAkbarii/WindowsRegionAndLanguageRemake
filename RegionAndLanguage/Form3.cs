@@ -65,9 +65,9 @@ namespace RegionAndLanguage {
             // Update Languages value in the registry
             string[] newValue = listBoxLanguages.Items.Cast<string>().ToArray();
             RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Control Panel\International\User Profile", true);
-            if (key.GetValueNames().Contains("Languages"))
+            if ((key.GetValueNames().Contains("Languages")) && (newValue != GetLanguagesFromRegistry())) {
                 key.SetValue("Languages", newValue);
-
+            }
         }
 
         private void listBoxLanguages_SelectedIndexChanged(object sender, EventArgs e) {
@@ -77,10 +77,14 @@ namespace RegionAndLanguage {
             } else if (listBoxLanguages.SelectedIndex == 0) {
                 buttonMoveUp.Enabled = false;
                 buttonMoveDown.Enabled = true;
-            } else if (listBoxLanguages.SelectedIndex > 0)  {
+            } else if (listBoxLanguages.SelectedIndex > 0) {
                 buttonMoveDown.Enabled = true;
                 buttonMoveUp.Enabled = true;
             }
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e) {
+            this.Close();
         }
     }
 }

@@ -32,34 +32,33 @@
             this.locationComboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.buttonPrefLangs = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.buttonDownloadLangPacks = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.buttonPrefLangs = new System.Windows.Forms.Button();
             this.labelNonAdminAcc = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBoxLanguages = new System.Windows.Forms.ComboBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.lpksetupButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.changeKeyboardsButton = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // applyButton
             // 
-            this.applyButton.Location = new System.Drawing.Point(331, 546);
+            this.applyButton.Location = new System.Drawing.Point(331, 527);
             this.applyButton.Name = "applyButton";
             this.applyButton.Size = new System.Drawing.Size(75, 23);
             this.applyButton.TabIndex = 2;
@@ -69,7 +68,7 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(252, 546);
+            this.cancelButton.Location = new System.Drawing.Point(252, 527);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(75, 23);
             this.cancelButton.TabIndex = 1;
@@ -79,7 +78,7 @@
             // 
             // OkButton
             // 
-            this.OkButton.Location = new System.Drawing.Point(171, 546);
+            this.OkButton.Location = new System.Drawing.Point(171, 527);
             this.OkButton.Name = "OkButton";
             this.OkButton.Size = new System.Drawing.Size(75, 23);
             this.OkButton.TabIndex = 0;
@@ -94,7 +93,7 @@
             this.tabControl1.Location = new System.Drawing.Point(5, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(405, 537);
+            this.tabControl1.Size = new System.Drawing.Size(405, 518);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -147,10 +146,40 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(397, 511);
+            this.tabPage2.Size = new System.Drawing.Size(397, 492);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Keyboards and Languages";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.buttonPrefLangs);
+            this.groupBox4.Location = new System.Drawing.Point(6, 215);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(384, 102);
+            this.groupBox4.TabIndex = 2;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Preferred languages";
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(9, 16);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(345, 31);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Apps and websites will appear in the first language in the preferred languages li" +
+    "st that they support.\r\n";
+            // 
+            // buttonPrefLangs
+            // 
+            this.buttonPrefLangs.Location = new System.Drawing.Point(196, 62);
+            this.buttonPrefLangs.Name = "buttonPrefLangs";
+            this.buttonPrefLangs.Size = new System.Drawing.Size(171, 23);
+            this.buttonPrefLangs.TabIndex = 10;
+            this.buttonPrefLangs.Text = "Set preferred languages...";
+            this.buttonPrefLangs.UseVisualStyleBackColor = true;
+            this.buttonPrefLangs.Click += new System.EventHandler(this.buttonPrefLangs_Click);
             // 
             // groupBox3
             // 
@@ -187,25 +216,14 @@
             this.groupBox2.Controls.Add(this.labelNonAdminAcc);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.comboBoxLanguages);
-            this.groupBox2.Controls.Add(this.linkLabel1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.lpksetupButton);
             this.groupBox2.Location = new System.Drawing.Point(6, 323);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(384, 181);
+            this.groupBox2.Size = new System.Drawing.Size(384, 160);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Display language";
-            // 
-            // buttonPrefLangs
-            // 
-            this.buttonPrefLangs.Location = new System.Drawing.Point(196, 62);
-            this.buttonPrefLangs.Name = "buttonPrefLangs";
-            this.buttonPrefLangs.Size = new System.Drawing.Size(171, 23);
-            this.buttonPrefLangs.TabIndex = 10;
-            this.buttonPrefLangs.Text = "Set preferred languages...";
-            this.buttonPrefLangs.UseVisualStyleBackColor = true;
-            this.buttonPrefLangs.Click += new System.EventHandler(this.buttonPrefLangs_Click);
             // 
             // labelNonAdminAcc
             // 
@@ -237,17 +255,6 @@
             this.comboBoxLanguages.Size = new System.Drawing.Size(355, 21);
             this.comboBoxLanguages.TabIndex = 7;
             this.comboBoxLanguages.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguages_SelectedIndexChanged);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(118, 154);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(260, 13);
-            this.linkLabel1.TabIndex = 8;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Manage more display language settings in PC settings";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.displayLangSettings_LinkClicked);
             // 
             // label3
             // 
@@ -298,31 +305,11 @@
             this.changeKeyboardsButton.UseVisualStyleBackColor = true;
             this.changeKeyboardsButton.Click += new System.EventHandler(this.changeKeyboardsButton_Click);
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Controls.Add(this.buttonPrefLangs);
-            this.groupBox4.Location = new System.Drawing.Point(6, 215);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(384, 102);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Preferred languages";
-            // 
-            // label8
-            // 
-            this.label8.Location = new System.Drawing.Point(9, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(345, 43);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Apps and websites will appear in the first language in the preferred languages li" +
-    "st that they support.\r\n";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 578);
+            this.ClientSize = new System.Drawing.Size(412, 560);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.OkButton);
             this.Controls.Add(this.cancelButton);
@@ -335,12 +322,12 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -362,7 +349,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox locationComboBox;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ComboBox comboBoxLanguages;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox3;

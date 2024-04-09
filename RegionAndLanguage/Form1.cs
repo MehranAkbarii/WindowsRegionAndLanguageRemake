@@ -460,17 +460,6 @@ namespace RegionAndLanguage {
             this.Close();
         }
 
-        private void displayLangSettings_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-            Process p = new Process();
-            p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            p.StartInfo.FileName = "control.exe";
-            p.StartInfo.Arguments = "/name Microsoft.Language";
-            p.Start();
-            //control /name Microsoft.Language
-        }
-
-        private void button1_Click(object sender, EventArgs e) {
-        }
 
         private void checkCurrentDisplayLang() {
             RegistryKey key = Registry.CurrentUser.OpenSubKey("Control Panel\\Desktop");

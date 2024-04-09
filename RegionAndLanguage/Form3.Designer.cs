@@ -30,6 +30,7 @@
             this.buttonSave = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             // buttonMoveUp
             // 
             this.buttonMoveUp.Enabled = false;
-            this.buttonMoveUp.Location = new System.Drawing.Point(299, 55);
+            this.buttonMoveUp.Location = new System.Drawing.Point(298, 215);
             this.buttonMoveUp.Name = "buttonMoveUp";
             this.buttonMoveUp.Size = new System.Drawing.Size(75, 23);
             this.buttonMoveUp.TabIndex = 1;
@@ -56,7 +57,7 @@
             // buttonMoveDown
             // 
             this.buttonMoveDown.Enabled = false;
-            this.buttonMoveDown.Location = new System.Drawing.Point(299, 84);
+            this.buttonMoveDown.Location = new System.Drawing.Point(300, 244);
             this.buttonMoveDown.Name = "buttonMoveDown";
             this.buttonMoveDown.Size = new System.Drawing.Size(75, 23);
             this.buttonMoveDown.TabIndex = 2;
@@ -66,7 +67,7 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(299, 244);
+            this.buttonSave.Location = new System.Drawing.Point(229, 291);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(75, 23);
             this.buttonSave.TabIndex = 3;
@@ -86,7 +87,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.buttonMoveDown);
-            this.groupBox1.Controls.Add(this.buttonSave);
             this.groupBox1.Controls.Add(this.buttonMoveUp);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.listBoxLanguages);
@@ -97,12 +97,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Preferred languages";
             // 
+            // buttonCancel
+            // 
+            this.buttonCancel.Location = new System.Drawing.Point(310, 291);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.TabIndex = 5;
+            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
+            // 
             // FormPrefLangs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(392, 290);
+            this.ClientSize = new System.Drawing.Size(390, 322);
+            this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.buttonSave);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -124,5 +136,6 @@
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button buttonCancel;
     }
 }
