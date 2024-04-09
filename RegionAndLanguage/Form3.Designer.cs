@@ -57,7 +57,7 @@
             // buttonMoveDown
             // 
             this.buttonMoveDown.Enabled = false;
-            this.buttonMoveDown.Location = new System.Drawing.Point(300, 244);
+            this.buttonMoveDown.Location = new System.Drawing.Point(298, 244);
             this.buttonMoveDown.Name = "buttonMoveDown";
             this.buttonMoveDown.Size = new System.Drawing.Size(75, 23);
             this.buttonMoveDown.TabIndex = 2;
