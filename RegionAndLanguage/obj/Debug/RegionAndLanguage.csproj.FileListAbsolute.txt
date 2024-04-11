@@ -26,4 +26,4 @@ C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\bin\Debu
 C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.FormLogOff.resources
 C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.FormLogOff.aa-DJ.resources
 C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\aa-DJ\RegionAndLanguage.resources.dll
-C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.Form3.resources
+C:\Users\Home\Documents\VS projects\RegionAndLanguage\RegionAndLanguage\obj\Debug\RegionAndLanguage.FormPrefLangs.resources
