@@ -28,6 +28,8 @@
 
 [-v1.5.3-final](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.3): Bug fixes and other minor improvements
 
+[-v1.5.5](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.5): program performance improved on x64 CPUs by releasing a x64 based version of the app , fixed an issue that some users could not launch windows 7 input cpl by click on Change keyboards... button
+
 ![Screenshot (34)](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/assets/133998536/5c6a522c-099d-414f-917b-881d2e2f09bd)
 
 ![Screenshot (35)](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/assets/133998536/17acac52-2aac-410a-95d6-d111f7610b67)
