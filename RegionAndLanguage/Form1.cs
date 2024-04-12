@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Management.Automation;
+using System.Management.Automation.Runspaces;
 using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Security.Principal;
@@ -23,13 +24,6 @@ namespace RegionAndLanguage {
 
 
     public partial class Form1 : Form {
-
-        [DllImport("kernel32.dll", SetLastError = true)]
-        public static extern int Wow64DisableWow64FsRedirection(ref IntPtr ptr);
-        [DllImport("kernel32.dll", SetLastError = true)]
-        public static extern int Wow64EnableWow64FsRedirection(ref IntPtr ptr);
-        [DllImport("kernel32.dll", SetLastError = true)]
-        public static extern int Wow64RevertWow64FsRedirection(ref IntPtr ptr);
 
         private string geoID;
         private string languageTag;
@@ -359,20 +353,18 @@ namespace RegionAndLanguage {
         }
 
         private void changeKeyboardsButton_Click(object sender, EventArgs e) {
+            string command = "control.exe 7nput.dll";
             Process p = new Process();
             p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            p.StartInfo.FileName = "control.exe";
-            p.StartInfo.Arguments = "7nput.dll";
+            p.StartInfo.FileName = "powershell.exe";
+            p.StartInfo.Arguments = $"-Command \"{command}\"";
             p.Start();
         }
 
         private void lpksetupButton_Click(object sender, EventArgs e) {
-            IntPtr val = IntPtr.Zero;
-            Wow64DisableWow64FsRedirection(ref val);
             Process p = new Process();
             p.StartInfo.FileName = "lpksetup.exe";
             p.Start();
-            Wow64EnableWow64FsRedirection(ref val);
         }
 
         private void applyButton_Click(object sender, EventArgs e) {

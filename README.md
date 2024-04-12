@@ -26,7 +26,7 @@
 
 -v1.5.0: Preferred languages switching feature added
 
-[-v1.5.2](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.2): Bug fixes and other minor improvements
+[-v1.5.3-final](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.3): Bug fixes and other minor improvements
 
 ![Screenshot (34)](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/assets/133998536/5c6a522c-099d-414f-917b-881d2e2f09bd)
 

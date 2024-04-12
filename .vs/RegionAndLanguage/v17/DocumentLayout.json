@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\Documents\\VS projects\\RegionAndLanguage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CB549AF-3AB9-48F2-B355-F440AFB71C8D}|RegionAndLanguage\\RegionAndLanguage.csproj|C:\\Users\\Home\\Documents\\VS projects\\RegionAndLanguage\\regionandlanguage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CB549AF-3AB9-48F2-B355-F440AFB71C8D}|RegionAndLanguage\\RegionAndLanguage.csproj|c:\\users\\home\\documents\\vs projects\\regionandlanguage\\regionandlanguage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CB549AF-3AB9-48F2-B355-F440AFB71C8D}|RegionAndLanguage\\RegionAndLanguage.csproj|solutionrelative:regionandlanguage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB549AF-3AB9-48F2-B355-F440AFB71C8D}|RegionAndLanguage\\RegionAndLanguage.csproj|c:\\users\\home\\documents\\vs projects\\regionandlanguage\\regionandlanguage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9CB549AF-3AB9-48F2-B355-F440AFB71C8D}|RegionAndLanguage\\RegionAndLanguage.csproj|C:\\Users\\Home\\Documents\\VS projects\\RegionAndLanguage\\regionandlanguage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9CB549AF-3AB9-48F2-B355-F440AFB71C8D}|RegionAndLanguage\\RegionAndLanguage.csproj|solutionrelative:regionandlanguage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "RegionAndLanguage\\Form1.cs",
               "ToolTip": "C:\\Users\\Home\\Documents\\VS projects\\RegionAndLanguage\\RegionAndLanguage\\Form1.cs",
               "RelativeToolTip": "RegionAndLanguage\\Form1.cs",
-              "ViewState": "AQIAAE4BAAAAAAAAAAAUwGEBAAAMAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T22:37:47.523Z",
               "IsPinned": true,
@@ -64,8 +64,7 @@
               "ToolTip": "C:\\Users\\Home\\Documents\\VS projects\\RegionAndLanguage\\RegionAndLanguage\\Form1.cs [Design]",
               "RelativeToolTip": "RegionAndLanguage\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T22:37:43.922Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-08T22:37:43.922Z"
             },
             {
               "$type": "Document",
