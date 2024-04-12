@@ -10,7 +10,9 @@
 
 -v1.1.6: The lpksetup launcher (lpksetupRun.exe) dependency is removed from this version and now app can directly run lpksetup.exe and also you can run the app from anywhere and it is not required to copy the .exe file to your windows directory
 
-[-v1.1.7](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.1.7): Bug fixes and other minor improvements
+[-v1.1.7]: Bug fixes and other minor improvements
+
+[-v1.1.7.1](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.1.7.1): Bug fixes and other minor improvements (program performance improved on x64 CPUs by releasing a x64 based version of the app , fixed an issue that some users could not launch windows 7 input cpl by click on Change keyboards... button)
 
 -v1.2.2-pre-release: Language switching added
 
