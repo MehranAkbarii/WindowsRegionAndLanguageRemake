@@ -20,13 +20,13 @@
 
 -v1.3.6: Final polishing and bug fixes
 
-[-v1.4.0](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.4.0): Fixed null reference exception issue when user only has one UI language installed , app's unnecessarily dependencies removed
+-v1.4.0: Fixed null reference exception issue when user only has one UI language installed , app's unnecessarily dependencies removed
 
-[-v1.4.1](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.4.1): Now you can run the app and manage your home location settings without admin permission like v1.1.7 but still you need to run program as admin if you want to manage your display language settings
+-v1.4.1: Now you can run the app and manage your home location settings without admin permission like v1.1.7 but still you need to run program as admin if you want to manage your display language settings
 
 -v1.5.0: Preferred languages switching feature added
 
-[-v1.5.3-final](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.3): Bug fixes and other minor improvements
+-v1.5.3: Bug fixes and other minor improvements
 
 [-v1.5.5](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.5): program performance improved on x64 CPUs by releasing a x64 based version of the app , fixed an issue that some users could not launch windows 7 input cpl by click on Change keyboards... button
 
