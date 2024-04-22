@@ -22,6 +22,8 @@
 
 [-v1.5.5](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.5): Program performance improved on x64 CPUs by releasing a x64 based version of the app , fixed an issue that some users could not launch windows 7 input cpl by click on Change keyboards... button
 
+[-v1.5.5.1](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.5.5.1): Log off dialog won't show when you set again your current display language
+
 ![Screenshot (34)](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/assets/133998536/5c6a522c-099d-414f-917b-881d2e2f09bd)
 
 ![Screenshot (45)](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/assets/133998536/d56d56ef-3dd8-48f4-bfc2-5cb33f8dc961)
