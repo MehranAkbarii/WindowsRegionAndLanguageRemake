@@ -452,6 +452,14 @@ namespace RegionAndLanguage {
             this.Close();
         }
 
+        private string getCurrentSettedDisplayLang() {
+            RegistryKey key = Registry.CurrentUser.OpenSubKey("Control Panel\\Desktop");
+            if (key.GetValueNames().Contains("PreferredUILanguages")) {
+                string[] arr = (string[])key.GetValue("PreferredUILanguages");
+                return arr[0];
+            }
+            return CultureInfo.CurrentUICulture.ToString();
+        }
 
         private void checkCurrentDisplayLang() {
             RegistryKey key = Registry.CurrentUser.OpenSubKey("Control Panel\\Desktop");
@@ -515,8 +523,10 @@ namespace RegionAndLanguage {
                 using (Process process = Process.Start(psi)) {
                     process.WaitForExit();
                 }
-                Form frm = new FormLogOff();
-                frm.ShowDialog();
+                if (getCurrentSettedDisplayLang() != selectedLang) {
+                    Form frm = new FormLogOff();
+                    frm.ShowDialog();
+                }
                 //MessageBox.Show("You must log off for display language changes to take effect.", "Change Display Language", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             } catch (Exception ex) {
@@ -558,13 +568,6 @@ namespace RegionAndLanguage {
             var principal = new WindowsPrincipal(identity);
             return principal.IsInRole(WindowsBuiltInRole.Administrator);
         }
-
-        //private void Form1_Load(object sender, EventArgs e) {
-        //    //if (!IsAdministrator()) {
-        //    //    MessageBox.Show("Please Run as Administrator","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    //    this.Close();
-        //    //}
-        //}
 
         private void buttonDownloadLangPacks_Click(object sender, EventArgs e) {
             Process.Start("https://apps.microsoft.com/search?query=local+experience+packs&hl=en-us&gl=US&price=Free");
