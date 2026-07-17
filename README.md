@@ -8,8 +8,6 @@
 
 -v1.1.7: Bug fixes and other minor improvements
 
-[-v1.1.7.1](https://github.com/MehranAkbarii/WindowsRegionAndLanguageRemake/releases/tag/v1.1.7.1): Bug fixes and other minor improvements (Update 13/4/2024 : program performance improved on x64 CPUs by releasing a x64 based version of the app , fixed an issue that some users could not launch windows 7 input cpl by click on Change keyboards... button)
-
 -v1.3.0: Display language switching and download language packs features added
 
 -v1.4.0: Fixed null reference exception issue when user only has one UI language installed
